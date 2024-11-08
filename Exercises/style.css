@@ -58,4 +58,59 @@ border: 4px solid rgb(65, 16, 16);
 background-color: pink;
 padding: 2rem;
 flex: 1;
+margin: 0.2rem;
+}
+
+
+
+
+.midle-container {
+    display: flex;
+    margin: 1rem 0;
+    
+    
+}
+
+.child-midle-container {
+    flex-direction: column;
+    margin: 0.2rem;
+    margin-right: 0;
+    flex: 1;
+    gap: 1;
+}
+
+.boxy {
+    height: auto;
+    margin-right: 0;
+}
+
+
+.container-down {
+    background-color: aqua;
+    padding: 1rem;
+    border: 4px solid blue;
+    display: flex;
+    flex: 1;
+}
+
+.table {
+    border: 4px solid rgb(138, 79, 247);
+    background-color: rgb(95, 180, 219);
+    flex: 1;
+    margin: 4px;
+    padding: 2rem;
+
+}
+
+
+.floor {
+    background-color: peachpuff;
+    border: 4px solid salmon;
+    flex: 1;
+    margin: 4px;
+    
+}
+
+#bigBox {
+    margin-left: 0;
 }
